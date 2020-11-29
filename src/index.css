@@ -20,6 +20,22 @@ body{
     background-color: rgb(29, 37, 44);
 }
 
+.editor-container.collapsed{
+    flex-grow: 0;
+}
+.editor-container.collapsed{
+    position: absolute;
+    overflow: hidden !important;
+}
+
+.expand-collapse-btn{
+    margin-left: .5rem;
+    background: none;
+    border: none;
+    color: rgb(217, 232, 245);
+    cursor: pointer;
+}
+
 .editor-title{
     display: flex;
     background-color: rgb(22, 29, 34);
