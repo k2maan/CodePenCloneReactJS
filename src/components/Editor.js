@@ -7,6 +7,7 @@ import "codemirror/mode/css/css";
 import { Controlled as ControlledEditor } from "react-codemirror2";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
 export default function Editor(props) {
   const { language, displayName, value, onChange } = props;
   const [open, setOpen] = useState(true);
